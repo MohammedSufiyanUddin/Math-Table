@@ -1,0 +1,30 @@
+
+body{
+    margin: 0;
+    background: url('/img/img1.jpg');
+   background-size: cover;
+  
+  
+    background-repeat: no-repeat;
+}
+.bg-info{
+    background: linear-gradient(45deg,black,#17485c,black ) !important;
+    /*  */
+}
+.badge-info{
+    background-color: #16303a !important;
+
+}
+.text-info{
+    color: #16303a !important;
+
+
+}
+
+/* @media (max-width:500px){
+    .valueCn{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+} */

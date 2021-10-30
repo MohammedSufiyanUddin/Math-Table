@@ -20,7 +20,7 @@
 </head>
 <body>
     <nav class="navbar navbar-dark bg-info mb-3">
-        <a href="#" class="navbar-brand">Mathematics Table</a>
+        <a href="#" class="navbar-brand"> <span><i class="fas fa-dice-d6 fa-2x"></i></span> Math Table</a>
     </nav>
 
     <!-- math table card -->
@@ -37,7 +37,7 @@
                                 <form action="">
                                     <div class="form-group">
                                         <label for="">Enter a Number</label>
-                                        <input type="number" class="form-control" placeholder="Enter Number">
+                                        <input type="number" id="req-number" class="form-control" placeholder="Enter Number">
                                     </div>
                                 </form>
                             </div>
@@ -45,7 +45,7 @@
                                 <form action="">
                                     <div class="form-group">
                                         <label for="">Enter Multilir</label>
-                                        <input type="range" class="custom-range" id="customRange1">
+                                        <input type="range" class="custom-range" id="multiplier" min="1" max="10" value="1">
                                     </div>
                                 </form>
                             </div>
@@ -65,7 +65,7 @@
                         <div class="row d-flex align-items-center valueCn">
                             <div class="col-md-2">
                                 <h1 class="display-2">
-                                    <span class="badge badge-info">1</span>
+                                    <span class="badge badge-info" id="number">1</span>
         
                                 </h1>
                             </div>
@@ -76,7 +76,7 @@
                             </div>
                             <div class="col-md-2">
                                 <h1 class="display-2">
-                                    <span class="badge badge-info">1</span>
+                                    <span class="badge badge-info" id="multi">1</span>
         
                                 </h1>
                             </div>
@@ -87,7 +87,7 @@
                             </div>
                             <div class="col-md-2">
                                 <h1 class="display-2">
-                                    <span class="badge badge-info">1</span>
+                                    <span class="badge badge-info" id="result">1</span>
         
                                 </h1>
                             </div>
